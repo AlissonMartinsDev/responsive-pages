@@ -1,0 +1,185 @@
+@media (min-width:700px) {
+	.container {
+		max-width:80%;
+		margin:auto;
+	}
+	#logo {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		padding:30px 0;
+	}
+	.logo-square {
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		overflow:hidden;
+		margin-right:10px;
+	}
+	#logo span {
+		font-size:20px;
+		text-shadow:2px 2px 2px #999;
+		line-height:25px;
+	}
+	.logo-square img {
+		width:inherit;
+		height:inherit;
+	}
+	.adv {
+		color:#14F;
+	}
+	.adv-empresa {
+		color:#FFF;
+	}
+	#botao_menu {
+		display:none;
+	}
+	.menu ul {
+		display:block;
+		text-align:center;
+		background-color:#000;
+	}
+	.menu ul li {
+		display:inline-block;
+		border:0;
+		border-top:2px solid #000;
+		border-bottom:2px solid #000;
+	}
+	.menu ul li:hover, .menu ul li.active {
+		background-color:#000;
+		border-top:2px solid #CC7;
+		border-bottom:2px solid #CC7;
+		cursor:pointer;
+	}
+	.slide-dark {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding:80px 100px;
+	}
+	#servicos h2 {
+		text-align:center;
+	}
+	.slide p {
+		text-align:center;
+	}
+	.seta-esquerda {
+		left:10px;
+	}
+	.seta-direita {
+		right:20px;
+	}
+	footer .container .footer--right {
+		display:block;
+		width:30%;
+	}
+	footer .container .footer--contatos {
+		display:flex;
+	}
+	footer .container .footer--left {
+		flex:1;
+	}
+	footer .container .footer--right img {
+		width:10%;
+	}
+}
+
+@media (min-width:900px) {
+	.header--top {
+		background-color:#000;
+		color:#FFF;
+	}
+	.contacts--info {
+		display:flex;
+		font-size:12px;
+		justify-content:center;
+		align-items:center;
+	}
+	.contacts--info span {
+		margin-right:10px;
+	}
+	.contacts--info img {
+		width:5%;
+		vertical-align:middle;
+	}
+	.contacts--info-left,
+	.contacts--info-social {
+		flex:1;
+		justify-content:center;
+		padding:5px;
+	}
+	.contacts--info-left {
+		text-align:center;
+	}
+	.contacts--info-social {
+		text-align:right;
+	}
+	.contacts--info-left img {
+		margin-right:3px;
+	}
+	.contacts--info-social img {
+		width:16px;
+		margin-left:10px;
+	}
+	.contacts--info-left img {
+		width:17px;
+	}
+	.slide {
+		height:425px;
+	}
+	#servicos h2 {
+		margin-top:20px;
+		margin-bottom:35px;
+	}
+	#servicos p {
+		margin-bottom:35px;
+	}
+	#servicos .servicos-prestados {
+		display:flex;
+		margin-bottom:30px;
+	}
+	#servicos .servico {
+		margin-right:10px;
+	}
+	.servicos-prestados .servico h3 {
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#section--diferencial .container {
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	#section--diferencial .set-diferencial {
+		display:flex;
+	}
+	#section--diferencial .set-diferencial .diferencial {
+		margin-right:10px;
+	}
+	#section--diferencial h2 {
+		font-size:20px;
+		text-align:center;
+		/*padding-bottom:20px;*/
+		border:0;
+	}
+	#section--diferencial h3 {
+		margin-top:20px;
+		margin-bottom:15px;
+	}
+	#section--diferencial .diferencial p {
+		line-height:30px;
+	}
+	#section--diferencial .container h2 .line {
+		display:inline-block;
+		width:20%;
+		height:4px;
+		background-color:#999;
+		vertical-align:middle;
+	}
+	#section--diferencial .container h2 .line:first-child {
+		margin-right:10px;
+	}
+	footer .container .footer--right img {
+		width:5%;
+	}
+}
